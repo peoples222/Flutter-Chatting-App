@@ -18,7 +18,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: 2.16.1
+  flutter: 2.10.3
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -29,7 +30,75 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
+  path_provider: 2.0.9
+  shared_preferences: 2.0.13
+  image_picker: 0.8.4+9
+  video_player: 2.2.19
+  video_player_android: 2.3.1
+  url_launcher: 6.0.20
+  json_annotation: 4.4.0
+  intl: 0.17.0
+  http: 0.13.4
+  webview_flutter: 3.0.1
+  tuple: 2.0.0
+  collection: 1.15.0
+
+  freezed_annotation: 1.1.0
+  provider: 6.0.2
+  dio: 4.0.4
+  lottie: 1.2.2
+  flutter_svg: 1.0.3
+  device_preview: 1.0.0
+  xml2json: 5.3.2
+
+  rxdart: 0.27.3
+  version: 2.0.0
+  photo_view: 0.13.0
+  tap_debouncer: 2.0.2
+  fluttertoast:
+    git:
+      url: https://github.com/red282/FlutterToast.git
+      ref: e6d33a0a47263b692cc556118c0753a55f7df657
+  equatable: 2.0.3
+  heic_to_jpg:
+    git:
+      url: https://github.com/red282/flutter_heic_to_jpg.git
+      ref: 3dd3d496068b86d22eb16be9848c6169b479610f
+  custom_refresh_indicator: 1.0.0
+  dotted_border: 2.0.0+2
+  flutter_reorderable_list:
+    git:
+      url: https://github.com/knopp/flutter_reorderable_list.git
+      ref: "dae1e8ad2c2343a91e1bb1bac41b1c7e322776bf"
+
+  geolocator: 8.2.1
+  cached_network_image: 3.2.0
+  flutter_staggered_grid_view: 0.6.1
+  pull_to_refresh: 2.0.0
+  package_info_plus: 1.4.0
+  uuid: 3.0.6
+  flutter_html: 3.0.0-alpha.2
+  image_crop: 0.4.0
+  scroll_to_index: 2.1.1
+  html_unescape: 2.0.0
+  flutter_keyboard_visibility: 5.2.0
+  archive: 3.2.1
+  kakao_flutter_sdk_link: 1.1.0
+  copy_with_extension: 4.0.0
+  rich_text_controller:
+    git:
+      url: https://github.com/micazi/rich_text_controller
+      ref: "7a032886e950cf1181fd82719da0d3af10ea93aa"
+  android_intent_plus: 3.1.1
+  launch_review: 3.0.1
+  permission_handler: 9.2.0
+  auto_size_text_field: 1.0.1
+  scrollable_positioned_list: ^0.2.3
+  visibility_detector: ^0.2.2
+  image: ^3.1.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -38,13 +107,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^1.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
